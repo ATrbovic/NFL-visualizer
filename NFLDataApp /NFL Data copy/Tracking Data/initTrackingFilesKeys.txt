@@ -1,0 +1,9 @@
+2018123000 ClevelandBrowns(CLE)vsBaltimoreRavens(BAL)
+2018123001 MiamiDolphins(MIA)vsBuffaloBills(BUF)
+2018123002 DetroitLions(DET)vsGreenBayPackers(GB)
+2018123003 JacksonvilleJaguars(JAX)vsHoustonTexas(HOU)
+2018123004 OaklandRaiders(OAK)vsKansasCity(KC)
+2018122201 BaltimoreRavens(BAL)vsLosAngelesChargers(LAC)
+
+
+

@@ -1,0 +1,71 @@
+﻿  Entity.cpp
+C:\Users\josed\source\repos\NFL Data copy\NFL Data copy\Entity.cpp(322,42): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\josed\source\repos\NFL Data copy\NFL Data copy\Entity.cpp(331,60): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\josed\source\repos\NFL Data copy\NFL Data copy\Entity.cpp(331,48): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\josed\source\repos\NFL Data copy\NFL Data copy\Entity.cpp(334,63): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\josed\source\repos\NFL Data copy\NFL Data copy\Entity.cpp(334,51): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\josed\source\repos\NFL Data copy\NFL Data copy\Entity.cpp(343,112): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\josed\source\repos\NFL Data copy\NFL Data copy\Entity.cpp(349,58): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\josed\source\repos\NFL Data copy\NFL Data copy\Entity.cpp(350,54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\josed\source\repos\NFL Data copy\NFL Data copy\Entity.cpp(400,60): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\josed\source\repos\NFL Data copy\NFL Data copy\Entity.cpp(400,48): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\josed\source\repos\NFL Data copy\NFL Data copy\Entity.cpp(401,63): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\josed\source\repos\NFL Data copy\NFL Data copy\Entity.cpp(401,51): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\josed\source\repos\NFL Data copy\NFL Data copy\Entity.cpp(414,112): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\josed\source\repos\NFL Data copy\NFL Data copy\Entity.cpp(420,58): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\josed\source\repos\NFL Data copy\NFL Data copy\Entity.cpp(421,54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\josed\source\repos\NFL Data copy\NFL Data copy\Entity.cpp(497,60): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\josed\source\repos\NFL Data copy\NFL Data copy\Entity.cpp(497,48): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\josed\source\repos\NFL Data copy\NFL Data copy\Entity.cpp(498,63): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\josed\source\repos\NFL Data copy\NFL Data copy\Entity.cpp(498,51): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\josed\source\repos\NFL Data copy\NFL Data copy\Entity.cpp(510,112): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\josed\source\repos\NFL Data copy\NFL Data copy\Entity.cpp(516,58): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\josed\source\repos\NFL Data copy\NFL Data copy\Entity.cpp(517,54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\josed\source\repos\NFL Data copy\NFL Data copy\Entity.cpp(590,60): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\josed\source\repos\NFL Data copy\NFL Data copy\Entity.cpp(590,48): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\josed\source\repos\NFL Data copy\NFL Data copy\Entity.cpp(591,63): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\josed\source\repos\NFL Data copy\NFL Data copy\Entity.cpp(591,51): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\josed\source\repos\NFL Data copy\NFL Data copy\Entity.cpp(603,112): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\josed\source\repos\NFL Data copy\NFL Data copy\Entity.cpp(609,58): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\josed\source\repos\NFL Data copy\NFL Data copy\Entity.cpp(610,54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\josed\source\repos\NFL Data copy\NFL Data copy\Entity.cpp(683,60): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\josed\source\repos\NFL Data copy\NFL Data copy\Entity.cpp(683,48): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\josed\source\repos\NFL Data copy\NFL Data copy\Entity.cpp(684,63): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\josed\source\repos\NFL Data copy\NFL Data copy\Entity.cpp(684,51): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\josed\source\repos\NFL Data copy\NFL Data copy\Entity.cpp(696,112): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\josed\source\repos\NFL Data copy\NFL Data copy\Entity.cpp(702,58): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\josed\source\repos\NFL Data copy\NFL Data copy\Entity.cpp(703,54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\josed\source\repos\NFL Data copy\NFL Data copy\Entity.cpp(796,64): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\josed\source\repos\NFL Data copy\NFL Data copy\Entity.cpp(796,49): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\josed\source\repos\NFL Data copy\NFL Data copy\Entity.cpp(811,61): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\josed\source\repos\NFL Data copy\NFL Data copy\Entity.cpp(812,54): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Generating code
+  2 of 1185 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    6 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  NFL Data copy.vcxproj -> C:\Users\josed\source\repos\NFL Data copy\Release\NFL Data copy.exe
