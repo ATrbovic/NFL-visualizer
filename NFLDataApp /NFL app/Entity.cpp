@@ -1,4 +1,7 @@
 #include "Entity.h"
+#include <map>
+#include <string>
+
 
 // Function to initialize files (textures and fonts) for the Entity.
 void Entity::initFiles()
