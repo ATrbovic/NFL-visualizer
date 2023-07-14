@@ -275,6 +275,79 @@ sf::Color Entity::GetTeamColor(std::string& input)
     {
         return sf::Color(227, 24, 55); // Returns an SFML Color representing the Kansas City team color.
     }
+    if (input == "Cardinals")
+    {
+        return sf::Color(155, 35, 63); // Approximate color for the Cardinals.
+    }
+    if (input == "Falcons")
+    {
+        return sf::Color(0, 0, 0); // Color for the Falcons.
+    }
+    if (input == "Panthers")
+    {
+        return sf::Color(0, 133, 202); // Approximate color for the Panthers.
+    }
+    if (input == "Bears")
+    {
+        return sf::Color(11, 22, 42); // Approximate color for the Bears.
+    }
+    if (input == "Bengals")
+    {
+        return sf::Color(251, 79, 20); // Approximate color for the Bengals.
+    }
+    if (input == "Cowboys")
+    {
+        return sf::Color(0, 34, 68); // Approximate color for the Cowboys.
+    }
+    if (input == "Broncos")
+    {
+        return sf::Color(0, 34, 68); // Approximate color for the Broncos.
+    }
+    if (input == "Colts")
+    {
+        return sf::Color(0, 44, 95); // Approximate color for the Colts.
+    }
+    if (input == "Eagles")
+    {
+        return sf::Color(0, 76, 84); // Approximate color for the Eagles.
+    }
+    if (input == "Giants")
+    {
+        return sf::Color(1, 35, 82); // Approximate color for the Giants.
+    }
+    if (input == "Jets")
+    {
+        return sf::Color(18, 76, 72); // Approximate color for the Jets.
+    }
+    if (input == "Patriots")
+    {
+        return sf::Color(0, 34, 68); // Approximate color for the Patriots.
+    }
+    if (input == "Saints")
+    {
+        return sf::Color(211, 188, 141); // Approximate color for the Saints.
+    }
+    if (input == "Seahawks")
+    {
+        return sf::Color(0, 21, 50); // Approximate color for the Seahawks.
+    }
+    if (input == "Steelers")
+    {
+        return sf::Color(16, 24, 32); // Approximate color for the Steelers.
+    }
+    if (input == "Titans")
+    {
+        return sf::Color(12, 35, 64); // Approximate color for the Titans.
+    }
+    if (input == "Vikings")
+    {
+        return sf::Color(79, 38, 131); // Approximate color for the Vikings.
+    }
+    if (input == "Washington")
+    {
+        return sf::Color(63, 16, 16); // Approximate color for the Washington team.
+    }
+
 
     // The function may not return a value if the input does not match any of the specified team names.
     // This should be handled or checked in the calling code to ensure all possible cases are handled.
