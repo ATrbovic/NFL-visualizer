@@ -441,7 +441,44 @@ void Entity::initData()
     }
 
 
+    //Opening csv filed to obtain team names dynmaically
+    std::string line;
+    //ppath to csv file
+    std::ifstream csvFile("teamnames.csv");
 
+    if(csvFile.is.open()) {
+        std:getline(csvFile, line);
+
+        while (std::getline(csvFile, line))
+        {
+            std::isstringstream ss(line);
+            std::string field;
+            int fieldCount = 0;
+            std::string home_team, away_team;
+
+            //parse
+            while (std::getline(ss,field, ','))
+            {
+               ++field;
+                //getting home team
+               if(fieldCount == 15) {
+                home_team = field;
+               }
+
+                //getttign away team
+               else if(fieldCount == 16) {
+                away_team = field;
+                break
+               }
+            }
+            this -> home_team = teamAbbrToName[home_team];
+            this -> away_team = teamAbbrToName[away_team];
+        }
+        csvFile.close();
+    }
+
+
+    //Setting home and away teams
     intermedio.home_away_teams.first = home_team;
     intermedio.home_away_teams.second = away_team;
     
