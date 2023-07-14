@@ -813,6 +813,8 @@ void Entity::initData()
             }
         }
 
+
+        //Establishing the position of the players for the pass play, making "pass" a play type
         else if (intermedio.selection_applied && this ->activePlayType == "pass")
         {
             if (data.frameID == 11)
@@ -881,6 +883,7 @@ void Entity::initData()
                     }
                 }
 
+                
                 this->playersArt.push_back(playerArt);
                 this->playersCircle.push_back(playerCircle);
                 this->playersJersey.push_back(JerseyNumber);
