@@ -817,7 +817,7 @@ void Entity::initData()
         //Establishing the position of the players for the pass play, making "pass" a play type
         else if (intermedio.selection_applied && this ->activePlayType == "pass")
         {
-            if (data.frameID == 11)
+            if (data.FrameId == 11)
             {
                 playerArt.setPosition((data.x) * 10, 106.6 + ((data.y) * 8));
                 playerCircle.setPosition((data.x) * 10, 106.6 + ((data.y) * 8));
