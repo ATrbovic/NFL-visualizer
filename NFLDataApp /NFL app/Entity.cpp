@@ -281,6 +281,13 @@ sf::Color Entity::GetTeamColor(std::string& input)
 }
 
 
+
+// Function to load CSV data into the map
+void loadCSVData()
+{
+    {"ARI"}
+}
+
 void Entity::initData()
 {
     this->setActivePlayFile();
@@ -290,37 +297,77 @@ void Entity::initData()
     this->orientationTest.setRotation(10);
 
     //Getting home and away team
+    //Prior way to get home and away team
+    // if (this->intermedio.GameSelectedGlobal == "Cleveland Browns (CLE) vs Baltimore Ravens (BAL)")
+    // {
+    //     this->away_team = "Browns";
+    //     this->home_team = "Ravens";
+    // }
+    // if (this->intermedio.GameSelectedGlobal == "Baltimore Ravens (BAL) vs Los Angeles Chargers (LAC)")
+    // {
+    //     this->away_team = "Ravens";
+    //     this->home_team = "Chargers";
+    // }
+    // if (this->intermedio.GameSelectedGlobal == "Miami Dolphins (MIA) vs Buffalo Bills (BUF)")
+    // {
+    //     this->away_team = "Dolphins";
+    //     this->home_team = "Bills";
+    // }
+    // if (this->intermedio.GameSelectedGlobal == "Detroit Lions (DET) vs Green Bay Packers (GB)")
+    // {
+    //     this->away_team = "Lions";
+    //     this->home_team = "Packers";
+    // }
+    // if (this->intermedio.GameSelectedGlobal == "Jacksonville Jaguars (JAX) vs Houston Texas (HOU)")
+    // {
+    //     this->away_team = "Jaguars";
+    //     this->home_team = "Texas";
+    // }
+    // if (this->intermedio.GameSelectedGlobal == "Oakland Raiders (OAK) vs Kansas City (KC)")
+    // {
+    //     this->away_team = "Raiders";
+    //     this->home_team = "Kansas City";
+    // }
 
-    if (this->intermedio.GameSelectedGlobal == "Cleveland Browns (CLE) vs Baltimore Ravens (BAL)")
-    {
-        this->away_team = "Browns";
-        this->home_team = "Ravens";
+    //dyanmic method to get home and away teams
+
+    //initializing map for ohme and away teams
+    std::map<std::string, std::string> teamAbbrToName = {
+        {"ARI", "Arizona Cardinals"}
+        {"ATL",	"Atlanta Falcons"}
+        {"BAL",	"Baltimore Ravens"}
+        {"BUF",	"Buffalo Bills"}
+        {"CAR",	"Carolina Panthers"}
+        {"CHI",	"Chicago Bears"}   
+        {"CIN",	"Cincinnati Bengals"}
+        {"CLE",	"Cleveland Browns"}
+        {"DAL",	"Dallas Cowboys"}
+        {"DEN",	"Denver Broncos"}
+        {"DET",	"Detroit Lions"}
+        {"GB", "Green Bay Packers"}
+        {"HOU",	"Houston Texans"}
+        {"IND",	"ndianapolis Colts"}
+        {"JAX",	"Jacksonville Jaguars"}
+        {"KC",	"Kansas City Chiefs"}
+        {"MIA",	"Miami Dolphins"}
+        {"MIN",	"Minnesota Vikings"}
+        {"NE",	"New England Patriots"}
+        {"NO",	"New Orleans Saints"}
+        {"NYG",	"New York Giants"}
+        {"NYJ",	"New York Jets"}
+        {"LV",	"Las Vegas Raiders"}
+        {"PHI",	"Philadelphia Eagles"}
+        {"PIT",	"Pittsburgh Steelers"}
+        {"LAC",	"Los Angeles Chargers"}
+        {"SF",	"San Francisco 49ers"}
+        {"SEA",	"Seattle Seahawks"}
+        {"LAR",	"Los Angeles Rams"}
+        {"TB",	"Tampa Bay Buccaneers"}
+        {"TEN",	"Tennessee Titans"}
+        {"WAS",	"Washington Commanders"}
     }
-    if (this->intermedio.GameSelectedGlobal == "Baltimore Ravens (BAL) vs Los Angeles Chargers (LAC)")
-    {
-        this->away_team = "Ravens";
-        this->home_team = "Chargers";
-    }
-    if (this->intermedio.GameSelectedGlobal == "Miami Dolphins (MIA) vs Buffalo Bills (BUF)")
-    {
-        this->away_team = "Dolphins";
-        this->home_team = "Bills";
-    }
-    if (this->intermedio.GameSelectedGlobal == "Detroit Lions (DET) vs Green Bay Packers (GB)")
-    {
-        this->away_team = "Lions";
-        this->home_team = "Packers";
-    }
-    if (this->intermedio.GameSelectedGlobal == "Jacksonville Jaguars (JAX) vs Houston Texas (HOU)")
-    {
-        this->away_team = "Jaguars";
-        this->home_team = "Texas";
-    }
-    if (this->intermedio.GameSelectedGlobal == "Oakland Raiders (OAK) vs Kansas City (KC)")
-    {
-        this->away_team = "Raiders";
-        this->home_team = "Kansas City";
-    }
+
+
 
     intermedio.home_away_teams.first = home_team;
     intermedio.home_away_teams.second = away_team;
