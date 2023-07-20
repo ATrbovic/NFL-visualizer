@@ -44,21 +44,28 @@ void MainMenuState::initKeybinds()
 
 void MainMenuState::initGui()
 {
+	//Adding year to main menu option
+	this->buttons["MENU_STATE_YEAR"] = new gui::Button(195, 150, 150, 50,
+		&this->font, "Year", 20,
+		sf::Color(255, 255, 255, 150), sf::Color(250, 250, 250, 250), sf::Color(20, 20, 20, 50), //text color (idle, hover, active)
+		sf::Color(70, 70, 70, 0), sf::Color(150, 150, 150, 0), sf::Color(20, 20, 20, 0), //button color
+		sf::Color(70, 70, 70, 0), sf::Color(150, 150, 150, 0), sf::Color(20, 20, 20, 0)); //outline color
+
+	//Select Play
 	this->buttons["MENU_STATE_SELECT"] = new gui::Button(195, 200, 150, 50,
 		&this->font, "Select Play", 20,
 		sf::Color(255, 255, 255, 150), sf::Color(250, 250, 250, 250), sf::Color(20, 20, 20, 50), //text color (idle, hover, active)
 		sf::Color(70, 70, 70, 0), sf::Color(150, 150, 150, 0), sf::Color(20, 20, 20, 0), //button color
 		sf::Color(70, 70, 70, 0), sf::Color(150, 150, 150, 0), sf::Color(20, 20, 20, 0)); //outline color
 
+	//Load Play
 	this->buttons["GAME_STATE_LOAD"] = new gui::Button(195, 250, 150, 50,
 		&this->font, "Load Play", 20,
 		sf::Color(255, 255, 255, 150), sf::Color(250, 250, 250, 250), sf::Color(20, 20, 20, 50),
 		sf::Color(70, 70, 70, 0), sf::Color(150, 150, 150, 0), sf::Color(20, 20, 20, 0),
 		sf::Color(70, 70, 70, 0), sf::Color(150, 150, 150, 0), sf::Color(20, 20, 20, 0));
 
-
- 
-
+	//Quit the game
 	this->buttons["EXIT_STATE"] = new gui::Button(195, 300, 150, 50,
 		&this->font, "Quit Game", 20,
 		sf::Color(255, 255, 255, 150), sf::Color(250, 250, 250, 250), sf::Color(20, 20, 20, 50),

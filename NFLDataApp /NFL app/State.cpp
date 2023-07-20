@@ -25,10 +25,6 @@ const bool& State::getStart() const
 	return this->start_play;
 }
 
-
-
-
-
 void State::checkForQuitandStart()
 {
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key(this->keybinds.at("CLOSE"))))
@@ -41,8 +37,6 @@ void State::checkForQuitandStart()
 		this->start_play = true;
 	}
 }
-
-
 
 void State::updateMousePositions()
 {
